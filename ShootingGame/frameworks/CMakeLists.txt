@@ -56,7 +56,7 @@ add_subdirectory(${COCOS2D_ROOT})
 
 
 # Some macro definitions
-if(WINDOWS)
+if(WINDOW)
   if(BUILD_SHARED_LIBS)
     ADD_DEFINITIONS (-D_USRDLL -D_EXPORT_DLL_ -D_USEGUIDLL -D_USREXDLL -D_USRSTUDIODLL)
   else()
